@@ -24,7 +24,7 @@ module.exports = function(app) {
         failureRedirect: '/signin',
         successRedirect: '/'
     }));
-}
+};
 
 /*module.exports = function(app) {
     app.route('/users')
